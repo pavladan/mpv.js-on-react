@@ -1,0 +1,30 @@
+{
+  "name": "mpv.js-on-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavladan/mpv.js-on-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavladan/mpv.js-on-react/issues"
+  },
+  "homepage": "https://github.com/pavladan/mpv.js-on-react#readme",
+  "dependencies": {
+    "mpv.js-vanilla": "^0.3.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "babel-standalone": "^6.26.0",
+    "electron": "^3.1.11",
+    "electron-debug": "^2.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
