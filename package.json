@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,13 @@
   },
   "homepage": "https://github.com/pavladan/mpv.js-on-react#readme",
   "dependencies": {
-    "mpv.js-vanilla": "^0.3.1",
+    "mpv.js-vanilla": "^0.3.4",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "babel-standalone": "^6.26.0",
     "electron": "^3.1.11",
+    "electron-builder": "^21.2.0",
     "electron-debug": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
