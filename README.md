@@ -32,7 +32,7 @@ In order to try mpv.js you need to install mpv library first.
 ![](https://i.imgur.com/tLFkATs.png)
 
 ```bash
-git clone https://github.com/pavladan/mpv.js-on-react.js.git && cd mpv.js-on-react
+git clone https://github.com/pavladan/mpv.js-on-react.git && cd mpv.js-on-react
 npm install
 # Only on Linux: npm run use-system-ffmpeg
 npm start
