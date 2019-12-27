@@ -13,6 +13,9 @@ switch (process.platform) {
   case 'win32':
     os = 'win'
     break;
+  case 'linux':
+    os = 'linux'
+    break;
 }
 
 const pdir = path.join(__dirname, "mpv", os);
